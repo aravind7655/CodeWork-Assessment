@@ -1,0 +1,23 @@
+# Mobile UI Design Generator
+
+The Mobile UI Design Generator is a Python application that generates mobile user interface (UI) designs based on user input descriptions. It utilizes advanced AI models, specifically GPT-2 for text generation and Stable Diffusion for image generation, to create unique and modern mobile UI designs.
+
+## Features
+
+- **Text Prompt Generation**: Generates detailed prompts for mobile UI designs using the GPT-2 model.
+- **Image Generation**: Creates images of mobile UI designs based on generated prompts using the Stable Diffusion model.
+- **User-Friendly Interface**: Interact with the application via a simple command-line interface.
+
+List of Python libraries:
+
+diffusers
+transformers
+torch
+Pillow  # For handling images
+
+Explanation of Dependencies:
+diffusers: This is the library you used for image generation (Stable Diffusion).
+transformers: This is for the GPT-2 model used for text generation.
+torch: PyTorch is the backend for both diffusers and transformers models.
+Pillow: This is for working with images (to save, display, and manipulate the generated designs).
+
